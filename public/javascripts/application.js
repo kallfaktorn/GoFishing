@@ -1,0 +1,3 @@
+function wohoo() {
+  print "Wohoo";
+}

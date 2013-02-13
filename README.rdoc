@@ -1,0 +1,12 @@
+== Go fishing
+
+A browser MMO about fishing.
+
+== Getting Started
+
+Fire up terminal. Inside GoFishing folder type: to start the thin server
+rackup faye.ru -s thin -E production
+
+rails s
+
+curl http://localhost:9292/faye -d 'message={"channel":"/messages/new", "data":"hello"}'
